@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Programming Courses</title>
+    <link rel="stylesheet" href="landingpage.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Learn Programming Online</h1>
+            <nav>
+                <ul>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Master Programming Skills from Home</h2>
+            <p>Join our online courses and enhance your programming skills with expert instructors.</p>
+            <button onclick="enrollNow()">Enroll Now</button>
+        </div>
+    </section>
+
+    <section id="courses">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <div class="course-list">
+                <div class="course">
+                    <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg" alt="Introduction to Programming">
+                    <h3>Introduction to Programming</h3>
+                    <p>Learn the basics of programming using Python.</p>
+                </div>
+                <div class="course">
+                    <img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg" alt="Data Structures and Algorithms">
+                    <h3>Data Structures and Algorithms</h3>
+                    <p>Master data structures and algorithms for efficient programming.</p>
+                </div>
+                <div class="course">
+                    <img src="https://images.pexels.com/photos/5483079/pexels-photo-5483079.jpeg" alt="Web Development">
+                    <h3>Web Development</h3>
+                    <p>Build dynamic websites using HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We provide high-quality programming courses to help you advance your career.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Online Programming Courses. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="landingpager.js"></script>
+</body>
+</html>
+
